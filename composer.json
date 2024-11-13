@@ -1,0 +1,30 @@
+{
+	"name": "flynn314/pint",
+	"description": "Flynn's pint.",
+	"type": "library",
+	"license": "MIT",
+	"require": {
+		"php": "^8.3",
+		"laravel/framework": "^11.0"
+	},
+    "require-dev": {
+        "laravel/pint": "^1.18"
+    },
+	"autoload": {
+		"psr-4": {
+			"Flynn314\\Pint\\": "src"
+		}
+	},
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Flynn314\\Pint\\ServiceProvider"
+            ]
+        }
+    },
+	"pre-uninstall-cmd": [
+        "@php -r \"file_exists('pint.json') || unlink('pint.json');\""
+    ],
+	"minimum-stability": "dev",
+	"prefer-stable": true
+}
