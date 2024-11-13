@@ -22,7 +22,7 @@
             ]
         }
     },
-	"pre-uninstall-cmd": [
+	"post-package-uninstall": [
         "@php -r \"file_exists('pint.json') || unlink('pint.json');\""
     ],
 	"minimum-stability": "dev",
