@@ -53,6 +53,7 @@
         "no_superfluous_elseif": false,
         "no_useless_else": true,
         "nullable_type_declaration_for_default_null_value": true,
+        "nullable_type_declaration": false,
         "ordered_imports": {
             "sort_algorithm": "alpha"
         },
