@@ -81,6 +81,7 @@
             ],
             "sort_algorithm": "none"
         },
-        "single_space_around_construct": false
+        "single_space_around_construct": false,
+        "not_operator_with_successor_space": false
     }
 }
