@@ -23,7 +23,6 @@
 	"post-package-uninstall": [
         "@php -r \"file_exists('pint.json') || unlink('pint.json');\""
     ],
-	"bin": ["vendor/laravel/pint/builds/pint"],
 	"minimum-stability": "dev",
 	"prefer-stable": true
 }
